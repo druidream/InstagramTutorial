@@ -17,6 +17,7 @@
 		BFB593712BAD3A2A0058813E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB593702BAD3A2A0058813E /* FeedView.swift */; };
 		BFB593732BAD3A2F0058813E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB593722BAD3A2F0058813E /* FeedCell.swift */; };
 		BFB593752BAD3DEF0058813E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB593742BAD3DEF0058813E /* SearchView.swift */; };
+		BFB593772BAD3FEB0058813E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB593762BAD3FEB0058813E /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BFB593702BAD3A2A0058813E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		BFB593722BAD3A2F0058813E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		BFB593742BAD3DEF0058813E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BFB593762BAD3FEB0058813E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		BFB593622BAD1DF20058813E /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				BFB593762BAD3FEB0058813E /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				BFB593732BAD3A2F0058813E /* FeedCell.swift in Sources */,
 				BFB5936C2BAD31B80058813E /* ProfileView.swift in Sources */,
 				BFB593712BAD3A2A0058813E /* FeedView.swift in Sources */,
+				BFB593772BAD3FEB0058813E /* LoginView.swift in Sources */,
 				BF914E812B9D64AE0001B7FD /* ContentView.swift in Sources */,
 				BFB593752BAD3DEF0058813E /* SearchView.swift in Sources */,
 				BF914E7F2B9D64AE0001B7FD /* InstagramTutorialApp.swift in Sources */,

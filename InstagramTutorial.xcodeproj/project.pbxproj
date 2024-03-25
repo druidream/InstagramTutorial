@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		BF58767A2BB1401700988AE5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5876792BB1401700988AE5 /* User.swift */; };
 		BF58767C2BB144B500988AE5 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58767B2BB144B500988AE5 /* CurrentUserProfileView.swift */; };
+		BF58767E2BB148FA00988AE5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58767D2BB148FA00988AE5 /* Post.swift */; };
+		BF5876802BB14C9800988AE5 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58767F2BB14C9800988AE5 /* PostGridView.swift */; };
+		BF5876822BB14D5E00988AE5 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5876812BB14D5E00988AE5 /* ProfileHeader.swift */; };
 		BF914E7F2B9D64AE0001B7FD /* InstagramTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF914E7E2B9D64AE0001B7FD /* InstagramTutorialApp.swift */; };
 		BF914E812B9D64AE0001B7FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF914E802B9D64AE0001B7FD /* ContentView.swift */; };
 		BF914E832B9D64B00001B7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF914E822B9D64B00001B7FD /* Assets.xcassets */; };
@@ -30,6 +33,9 @@
 /* Begin PBXFileReference section */
 		BF5876792BB1401700988AE5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BF58767B2BB144B500988AE5 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		BF58767D2BB148FA00988AE5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BF58767F2BB14C9800988AE5 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		BF5876812BB14D5E00988AE5 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		BF914E7B2B9D64AE0001B7FD /* InstagramTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF914E7E2B9D64AE0001B7FD /* InstagramTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTutorialApp.swift; sourceTree = "<group>"; };
 		BF914E802B9D64AE0001B7FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				BF5876792BB1401700988AE5 /* User.swift */,
+				BF58767D2BB148FA00988AE5 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +177,7 @@
 			children = (
 				BFB5936B2BAD31B80058813E /* ProfileView.swift */,
 				BF58767B2BB144B500988AE5 /* CurrentUserProfileView.swift */,
+				BF5876812BB14D5E00988AE5 /* ProfileHeader.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 			children = (
 				BFB5936E2BAD35F90058813E /* UserStatView.swift */,
 				BFB5937A2BAD59D40058813E /* IGTextFieldModifier.swift */,
+				BF58767F2BB14C9800988AE5 /* PostGridView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -284,12 +293,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB593732BAD3A2F0058813E /* FeedCell.swift in Sources */,
+				BF5876822BB14D5E00988AE5 /* ProfileHeader.swift in Sources */,
 				BFB593792BAD57A10058813E /* AddEmailView.swift in Sources */,
 				BFB5936C2BAD31B80058813E /* ProfileView.swift in Sources */,
 				BFB593712BAD3A2A0058813E /* FeedView.swift in Sources */,
+				BF58767E2BB148FA00988AE5 /* Post.swift in Sources */,
 				BFB593772BAD3FEB0058813E /* LoginView.swift in Sources */,
 				BF58767C2BB144B500988AE5 /* CurrentUserProfileView.swift in Sources */,
 				BF914E812B9D64AE0001B7FD /* ContentView.swift in Sources */,
+				BF5876802BB14C9800988AE5 /* PostGridView.swift in Sources */,
 				BFB5937D2BAD5AAC0058813E /* CreateUsernameView.swift in Sources */,
 				BFB593812BAD5CEF0058813E /* CompleteSignUpView.swift in Sources */,
 				BF58767A2BB1401700988AE5 /* User.swift in Sources */,

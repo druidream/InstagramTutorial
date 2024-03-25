@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF58767A2BB1401700988AE5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5876792BB1401700988AE5 /* User.swift */; };
+		BF58767C2BB144B500988AE5 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF58767B2BB144B500988AE5 /* CurrentUserProfileView.swift */; };
 		BF914E7F2B9D64AE0001B7FD /* InstagramTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF914E7E2B9D64AE0001B7FD /* InstagramTutorialApp.swift */; };
 		BF914E812B9D64AE0001B7FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF914E802B9D64AE0001B7FD /* ContentView.swift */; };
 		BF914E832B9D64B00001B7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF914E822B9D64B00001B7FD /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		BF5876792BB1401700988AE5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BF58767B2BB144B500988AE5 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		BF914E7B2B9D64AE0001B7FD /* InstagramTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF914E7E2B9D64AE0001B7FD /* InstagramTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTutorialApp.swift; sourceTree = "<group>"; };
 		BF914E802B9D64AE0001B7FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				BFB5936B2BAD31B80058813E /* ProfileView.swift */,
+				BF58767B2BB144B500988AE5 /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				BFB5936C2BAD31B80058813E /* ProfileView.swift in Sources */,
 				BFB593712BAD3A2A0058813E /* FeedView.swift in Sources */,
 				BFB593772BAD3FEB0058813E /* LoginView.swift in Sources */,
+				BF58767C2BB144B500988AE5 /* CurrentUserProfileView.swift in Sources */,
 				BF914E812B9D64AE0001B7FD /* ContentView.swift in Sources */,
 				BFB5937D2BAD5AAC0058813E /* CreateUsernameView.swift in Sources */,
 				BFB593812BAD5CEF0058813E /* CompleteSignUpView.swift in Sources */,

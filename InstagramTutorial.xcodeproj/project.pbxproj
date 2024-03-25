@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF58767A2BB1401700988AE5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5876792BB1401700988AE5 /* User.swift */; };
 		BF914E7F2B9D64AE0001B7FD /* InstagramTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF914E7E2B9D64AE0001B7FD /* InstagramTutorialApp.swift */; };
 		BF914E812B9D64AE0001B7FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF914E802B9D64AE0001B7FD /* ContentView.swift */; };
 		BF914E832B9D64B00001B7FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF914E822B9D64B00001B7FD /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF5876792BB1401700988AE5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BF914E7B2B9D64AE0001B7FD /* InstagramTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF914E7E2B9D64AE0001B7FD /* InstagramTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTutorialApp.swift; sourceTree = "<group>"; };
 		BF914E802B9D64AE0001B7FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		BF914E8C2B9D64BB0001B7FD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF5876792BB1401700988AE5 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				BF914E812B9D64AE0001B7FD /* ContentView.swift in Sources */,
 				BFB5937D2BAD5AAC0058813E /* CreateUsernameView.swift in Sources */,
 				BFB593812BAD5CEF0058813E /* CompleteSignUpView.swift in Sources */,
+				BF58767A2BB1401700988AE5 /* User.swift in Sources */,
 				BFB593752BAD3DEF0058813E /* SearchView.swift in Sources */,
 				BFB5937B2BAD59D40058813E /* IGTextFieldModifier.swift in Sources */,
 				BF914E7F2B9D64AE0001B7FD /* InstagramTutorialApp.swift in Sources */,

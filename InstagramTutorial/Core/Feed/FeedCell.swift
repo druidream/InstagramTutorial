@@ -54,7 +54,7 @@ struct FeedCell: View {
                 Button {
                     print("Like post")
                 } label: {
-                    Image(systemName: "papperplane")
+                    Image(systemName: "paperplane")
                         .imageScale(.large)
                 }
 

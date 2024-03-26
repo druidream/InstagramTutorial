@@ -11,7 +11,7 @@ struct CreatePasswordView: View {
 
     @Environment(\.dismiss) var dismiss
 
-    @State private var password = ""
+    @EnvironmentObject var viewModel: RegistrationViewModel
 
     var body: some View {
         VStack {
@@ -25,7 +25,7 @@ struct CreatePasswordView: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 24)
 
-            SecureField("Password", text: $password)
+            SecureField("Password", text: $viewModel.password)
                 .textInputAutocapitalization(.none)
                 .modifier(IGTextFieldModifier())
                 .padding(.top)

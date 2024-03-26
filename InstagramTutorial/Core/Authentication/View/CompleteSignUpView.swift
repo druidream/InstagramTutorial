@@ -11,11 +11,13 @@ struct CompleteSignUpView: View {
 
     @Environment(\.dismiss) var dismiss
 
+    @EnvironmentObject var viewModel: RegistrationViewModel
+
     var body: some View {
         VStack {
             Spacer()
 
-            Text("Welcome to Instagram, stephan.dowless")
+            Text("Welcome to Instagram, \(viewModel.username)")
                 .font(.title2)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
@@ -27,7 +29,7 @@ struct CompleteSignUpView: View {
                 .padding(.horizontal, 24)
 
             Button {
-                print("Complete sign up")
+                Task { try await viewModel.createUser() }
             } label: {
                 Text("Complete Sign Up")
                     .font(.subheadline)

@@ -11,7 +11,7 @@ struct AddEmailView: View {
 
     @Environment(\.dismiss) var dismiss
 
-    @State private var email = ""
+    @EnvironmentObject var viewModel: RegistrationViewModel
 
     var body: some View {
         VStack {
@@ -25,7 +25,7 @@ struct AddEmailView: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 24)
 
-            TextField("Email", text: $email)
+            TextField("Email", text: $viewModel.email)
                 .textInputAutocapitalization(.none)
                 .modifier(IGTextFieldModifier())
                 .padding(.top)

@@ -10,7 +10,9 @@ import SwiftUI
 struct ProfileHeader: View {
 
     let user: User
-    
+
+    @State private var showEditProfile = false
+
     var body: some View {
         VStack(spacing: 10) {
             HStack {
@@ -52,7 +54,7 @@ struct ProfileHeader: View {
             // action button
             Button {
                 if user.isCurrentUser {
-                    print("Show edit profile")
+                    showEditProfile.toggle()
                 } else {
                     print("Follow user..")
                 }
@@ -71,6 +73,9 @@ struct ProfileHeader: View {
             }
 
             Divider()
+        }
+        .fullScreenCover(isPresented: $showEditProfile) {
+            Text("Edit profile view")
         }
     }
 }

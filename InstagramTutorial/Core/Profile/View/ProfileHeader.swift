@@ -45,8 +45,6 @@ struct ProfileHeader: View {
                     Text("Wakanda Forever")
                         .font(.footnote)
                 }
-
-                Text(user.username)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(.horizontal)
@@ -75,7 +73,7 @@ struct ProfileHeader: View {
             Divider()
         }
         .fullScreenCover(isPresented: $showEditProfile) {
-            Text("Edit profile view")
+            EditProfileView(user: user)
         }
     }
 }
